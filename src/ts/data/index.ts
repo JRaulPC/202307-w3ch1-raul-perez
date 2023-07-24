@@ -1,4 +1,4 @@
-import { type CharacterData } from "../types";
+import { type CharacterData } from "../types.js";
 
 export const joffrey: CharacterData = {
   name: "Joffrey",

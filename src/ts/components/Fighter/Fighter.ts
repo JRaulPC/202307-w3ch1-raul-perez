@@ -1,5 +1,5 @@
-import { CharacterData } from "../../types";
-import Character from "../Character/Character";
+import { CharacterData } from "../../types.js";
+import Character from "../Character/Character.js";
 
 class Fighter extends Character {
   weapon: string;
@@ -27,3 +27,5 @@ class Fighter extends Character {
     return dexterity;
   }
 }
+
+export default Fighter;
