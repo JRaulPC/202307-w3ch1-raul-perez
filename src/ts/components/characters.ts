@@ -12,6 +12,4 @@ const joffrey = new King(joffreyCharacterData, 2);
 const jaime = new Fighter(jaimeCharacterData, "sword", 7);
 const bronn = new Squire(bronnCharacterData, 0, jaime);
 
-const characters = [joffrey, jaime, bronn];
-
-export default characters;
+export const characters = [joffrey, jaime, bronn];

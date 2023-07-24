@@ -7,30 +7,32 @@ export const joffreyCharacterData: CharacterData = {
   imageSource: "joffrey.jpg",
 };
 
-export const jaimeCharacterData = {
+export const jaimeCharacterData: CharacterData = {
   name: "Jaime",
   family: "Lannister",
   age: 45,
-  imageSource: "jaime.jpg",
+  imageSource: "app/img/jaime.jpg",
 };
 
-export const daenerysCharacterData = {
+export const daenerysCharacterData: CharacterData = {
   name: "Daenerys",
   family: "Targaryen",
   age: 30,
-  imageSource: "daenerys.jpg",
+  imageSource:
+    "/Users/joseraulperezcassone/Desktop/ISDI Bootcamp/semana3/challenges/w03ch1/app/img/daenerys.jpg",
 };
 
-export const tyrionCharacterData = {
+export const tyrionCharacterData: CharacterData = {
   name: "Tyrion",
   family: "Lannister",
   age: 40,
   imageSource: "tyrion.jpg",
 };
 
-export const bronnCharacterData = {
+export const bronnCharacterData: CharacterData = {
   name: "Bronn",
   family: "Blackwater",
   age: 54,
-  imageSource: "bronn.jpg",
+  imageSource:
+    "/Users/joseraulperezcassone/Desktop/ISDI Bootcamp/semana3/challenges/w03ch1/app/img/bronn.jpg",
 };

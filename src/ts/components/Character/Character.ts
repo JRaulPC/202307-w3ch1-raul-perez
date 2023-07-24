@@ -1,8 +1,9 @@
-import { CharacterData } from "../../types";
+import { CharacterData } from "../../types.js";
 
 class Character {
   isAlive = true;
   series = "Game of Thrones";
+  age: number;
   characterData: CharacterData;
 
   constructor(characterData: CharacterData) {
