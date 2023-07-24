@@ -1,34 +1,34 @@
 import { type CharacterData } from "../types.js";
 
-export const joffrey: CharacterData = {
+export const joffreyCharacterData: CharacterData = {
   name: "Joffrey",
   family: "Baratheon",
   age: 16,
   imageSource: "joffrey.jpg",
 };
 
-export const jaime = {
+export const jaimeCharacterData = {
   name: "Jaime",
   family: "Lannister",
   age: 45,
   imageSource: "jaime.jpg",
 };
 
-export const jaenerys = {
+export const daenerysCharacterData = {
   name: "Daenerys",
   family: "Targaryen",
   age: 30,
   imageSource: "daenerys.jpg",
 };
 
-const tyrion = {
+export const tyrionCharacterData = {
   name: "Tyrion",
   family: "Lannister",
   age: 40,
   imageSource: "tyrion.jpg",
 };
 
-const bronn = {
+export const bronnCharacterData = {
   name: "Bronn",
   family: "Blackwater",
   age: 54,
