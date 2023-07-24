@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "npx tsc",
     "tsc:dev": "npx tsc -w"
@@ -22,4 +23,5 @@
     "husky": "^8.0.0",
     "typescript": "^5.1.6"
   }
+
 }
