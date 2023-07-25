@@ -9,12 +9,9 @@ class AppComponent extends Component {
 
   render() {
     this.element.innerHTML = `
-      <ul class="characters-list row list-unstyled">
-        <li class="col">
-        </li>
-      </ul>`;
+      <ul class="characters-list row list-unstyled"> </ul>`;
 
-    const characterList: Element = document.querySelector(".characters-list")!;
+    const characterList: Element = document.querySelector(".list-unstyled")!;
 
     const gotKing = new CharacterComponentCard(characterList, characters[0]);
     gotKing.render();
